@@ -1,4 +1,5 @@
-import { IconLanguage, IconMoonStars } from "@tabler/icons-react";
+import { IconMoonStars } from "@tabler/icons-react";
+import BotonIdioma from './BotonIdioma';
 
 function Header() {
   return (
@@ -11,12 +12,7 @@ function Header() {
           <p>OvandoCx</p>
         </div>
         <div className="p-3 flex items-center justify-center">
-          <button className="p-3">
-            <div className="rounded-lg bg-slate-300">
-              {/* sustituir por imagen pixel art */}
-              <IconLanguage size={36} /> 
-            </div>
-          </button>
+          <BotonIdioma />
           <button className="mr-4 pl-2">
             <div className="rounded-lg bg-slate-300">
               {/* sustituir por imagen pixel art */}

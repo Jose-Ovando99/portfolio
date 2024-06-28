@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       {/* Mobile-first */}
-      <div className="bg-slate-100 font-mono flex w-auto h-14 justify-between items-center
+      <div className="bg-[#03AED2] font-mono flex w-auto h-14 justify-between items-center
       md:h-20 lg:h-24">
         <div className="p-3 text-2xl flex items-center">
           {/* Incluir logo pixel art */}

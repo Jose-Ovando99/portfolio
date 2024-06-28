@@ -16,7 +16,7 @@ function Hero() {
   };
 
   return (
-    <div className='flex justify-center items-center flex-col md:flex-row-reverse bg-slate-300'>
+    <div className='flex justify-center items-center flex-col md:flex-row-reverse bg-[#68D2E8] text-slate-900'>
       <div className='text-center font-mono text-3xl justify-center items-center'>
         <p>{saludo}<span className='font-semibold'>Ivan Ovando</span><br />
         {puesto}</p>

@@ -1,7 +1,9 @@
+import { LanguageProvider } from "./components/LanguageContext";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
-import { LanguageProvider } from "./components/LanguageContext";
+import Skills from "./components/Skills";
+import SomeProjects from "./components/SomeProjects";
 
 
 function App() {
@@ -11,8 +13,8 @@ function App() {
       <Header />
       <Hero />
       <AboutMe />
-      <p className="text-red-500 text-2xl bg-slate-400 rounded-md">Skills</p>
-      <p className="text-red-500 text-2xl bg-slate-400 rounded-md">Some projects</p>
+      <Skills />
+      <SomeProjects />
       <p className="text-red-500 text-2xl bg-slate-400 rounded-md">Contacme</p>
       <p className="text-red-500 text-2xl bg-slate-400 rounded-md">Footer</p>
     </LanguageProvider>

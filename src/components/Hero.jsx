@@ -8,7 +8,7 @@ function Hero() {
 
   const { idioma } = useLanguage();
   const { saludo, puesto, click } = textos[idioma];
- 
+
   const [fotoPerfil, setFotoPerfil] = useState(pruebaUno)
 
   let cambiarFoto = () => {
@@ -16,16 +16,17 @@ function Hero() {
   };
 
   return (
-    <div className='flex justify-center items-center flex-col md:flex-row-reverse bg-[#68D2E8] text-slate-900'>
-      <div className='text-center font-mono text-3xl justify-center items-center'>
-        <p>{saludo}<span className='font-semibold'>Ivan Ovando</span><br />
-        {puesto}</p>
+    <div className='flex justify-center items-center flex-col md:flex-row-reverse pt-20 bg-slate-200 text-slate-900 w-auto'>
+      <div className='text-center font-nunito text-3xl justify-center items-center'>
+        <p className='px-8'>{saludo}<span className='font-bold'>Ivan Ovando</span><br /></p>
+        <p className='text-xl px-8 py-4'>{puesto}</p>
       </div>
-      <div className='flex flex-col justify-center items-center'>
-        <img className='rounded-full w-[280px] h-[280px] object-center object-cover'
-          src={fotoPerfil} alt='Img de prueba' onClick={() => cambiarFoto()} />
+      <div className='flex flex-col justify-center items-center px-8 py-10'>
+        <img className='rounded-full w-[240px] h-[240px] object-center object-cover'
+          src={fotoPerfil} alt='Este soy yo! :D' onClick={() => cambiarFoto()} />
         <p className='font-mono text-lg'>{click}</p>
       </div>
+      {/* Agregar imagen sobre codigo */}
     </div>
   );
 }

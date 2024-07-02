@@ -12,8 +12,13 @@ const textos = {
     herramientasDiseniador: 'Herramientas de diseño que utilizo.',
     lapizYPapel: 'Lápiz y papel',
     herramientasDesarrollador: 'Lenguajes de programación y herramientas de desarrollo que utilizo.',
+
+    // Seccion trabajos
     trabajos: 'Algunos de mis trabajos',
     trabajosTexto: 'Estos son algunos de los trabajos que he realizado tanto de manera freelance como para aprender.',
+    trabajoMorita: 'Este fue mi primer trabajo',
+    // Seccion trabajos
+
     interes: 'Hablemos',
     interesTexto: 'Estoy comprometido a acompañarte en cada fase del proyecto, desde la fase de diseño inicial hasta la implementación y más.',
 
@@ -31,8 +36,13 @@ const textos = {
     herramientasDiseniador: 'Design tools that I use.',
     lapizYPapel: 'Pencil and paper',
     herramientasDesarrollador: 'Programming languages and development tools that I use.',
+
+    // Seccion trabajos
     trabajos: 'Some of my work',
     trabajosTexto: 'This is some of the work I have done both as a freelancer and to learn.',
+    trabajoMorita: 'This was my first work',
+    // Seccion trabajos
+
     interes: 'Let\'s talk',
     interesTexto: 'I am committed to accompanying you through every phase of the project, from the initial design phase to implementation and beyond.',
   }

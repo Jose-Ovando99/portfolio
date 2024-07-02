@@ -14,7 +14,7 @@ function SomeProjects() {
       <p className='text-slate-200 text-lg px-10'>{trabajosTexto}</p>
       {/* Poner los enlaces a github o crear un componente externo para reutilizar*/}
       <div className='bg-slate-300 justify-center items-center flex flex-col'>
-        <Cards trabajoDe={'trabajoMorita'} />
+        <Cards trabajoDe={'trabajoMorita'} persona='Morita' />
       </div>
     </div>
   );

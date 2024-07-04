@@ -16,7 +16,7 @@ const textos = {
     // Seccion trabajos
     trabajos: 'Algunos de mis trabajos',
     trabajosTexto: 'Estos son algunos de los trabajos que he realizado tanto de manera freelance como para aprender.',
-    trabajoMorita: 'Este fue mi primer trabajo',
+    trabajoMorita: 'Morita Nails es un salón de uñas especializado que presenta una selección destacada de sus trabajos en su landing page, destacando su arte y profesionalismo en el cuidado de las uñas.',
     // Seccion trabajos
 
     interes: 'Hablemos',
@@ -40,7 +40,7 @@ const textos = {
     // Seccion trabajos
     trabajos: 'Some of my work',
     trabajosTexto: 'This is some of the work I have done both as a freelancer and to learn.',
-    trabajoMorita: 'This was my first work',
+    trabajoMorita: 'Morita Nails is a specialized nail salon that showcases a prominent selection of their work on their landing page, highlighting their artistry and professionalism in nail care.',
     // Seccion trabajos
 
     interes: 'Let\'s talk',

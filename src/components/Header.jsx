@@ -1,7 +1,24 @@
+import { useState, useEffect } from "react";
 import { IconMoonStars } from "@tabler/icons-react";
 import BotonIdioma from './BotonIdioma';
 
+
 function Header() {
+
+  const [theme, setTheme] = useState('light');
+
+  useEffect(() => {
+    if (theme == 'dark') {
+      document.querySelector('html').classList.add('dark');
+    } else {
+      document.querySelector('html').classList.remove('dark')
+    }
+  }, [theme]);
+
+  const handleChangeTheme = () => {
+    setTheme(prevTheme => prevTheme == 'light' ? 'dark' : 'light')
+  }
+
   return (
     <header>
       {/* Mobile-first */}
@@ -12,7 +29,7 @@ function Header() {
         </div>
         <div className="p-3 flex items-center justify-center">
           <BotonIdioma />
-          <button className="mr-4 pl-2">
+          <button className="mr-4 pl-2" onClick={handleChangeTheme}>
             <div className="rounded-lg bg-slate-300">
               {/* sustituir por imagen pixel art */}
               <IconMoonStars size={36} />

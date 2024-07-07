@@ -1,6 +1,7 @@
 import React from 'react';
 import textos from '../constants/textos';
 import { useLanguage } from './LanguageContext';
+import { IconBrandFigma, IconBrandSketch, IconFilePencil, IconBrandHtml5, IconBrandCss3, IconBrandJavascript, IconBrandPython, IconBrandGit, IconBrandNodejs, IconBrandReact, IconBrandTailwind, IconBrandBootstrap, IconBrandGithub, IconBrandVscode } from '@tabler/icons-react';
 
 function Skills() {
   const { idioma } = useLanguage();
@@ -12,29 +13,29 @@ function Skills() {
         <p className='font-extrabold text-[#0C1A1A]'>{diseniador}</p>
         <p className='font-semibold py-5'>{diseniadorTexto}</p>
         <p className='py-5'>{herramientasDiseniador}</p>
-        <ul>
-          <li>Figma</li>
-          <li>Sketch</li>
-          <li>{lapizYPapel}</li>
+        <ul className='list-none'>
+          <li className='flex items-center justify-center my-2'><IconBrandFigma />Figma</li>
+          <li className='flex items-center justify-center my-2'><IconBrandSketch />Sketch</li>
+          <li className='flex items-center justify-center my-2'><IconFilePencil />{lapizYPapel}</li>
         </ul>
       </div>
       <div className='border-2 rounded-xl rounded-t-none border-gray-500 bg-slate-200 -mt-1 md:-mt-40 md:rounded-xl p-8'>
         <p className='font-extrabold text=[#0C1A1A]'>{frontEnd}</p>
         <p className='font-semibold py-5'>{frontEndTexto}</p>
         <p className='py-5'>{herramientasDesarrollador}</p>
-        <ol>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Git</li>
-          <li>Node.js</li>
-          <li>ReactJS</li>
-          <li>Tailwind</li>
-          <li>Bootstrap</li>
-          <li>Github</li>
-          <li>VS Code</li>
-        </ol>
+        <ul className='list-none'>
+          <li className='flex items-center justify-center my-2'><IconBrandHtml5 />HTML</li>
+          <li className='flex items-center justify-center my-2'><IconBrandCss3 />CSS</li>
+          <li className='flex items-center justify-center my-2'><IconBrandJavascript />JavaScript</li>
+          <li className='flex items-center justify-center my-2'><IconBrandPython />Python</li>
+          <li className='flex items-center justify-center my-2'><IconBrandGit />Git</li>
+          <li className='flex items-center justify-center my-2'><IconBrandNodejs />Node.js</li>
+          <li className='flex items-center justify-center my-2'><IconBrandReact />ReactJS</li>
+          <li className='flex items-center justify-center my-2'><IconBrandTailwind />Tailwind</li>
+          <li className='flex items-center justify-center my-2'><IconBrandBootstrap />Bootstrap</li>
+          <li className='flex items-center justify-center my-2'><IconBrandGithub />Github</li>
+          <li className='flex items-center justify-center my-2'><IconBrandVscode />VS Code</li>
+        </ul>
       </div>
     </div>
   );

@@ -1,19 +1,34 @@
-import { useState, React } from 'react';
+import { useState, React, useRef, useEffect } from 'react';
 import { useLanguage } from './LanguageContext';
 import textos from '../constants/textos';
+import anime from 'animejs';
 import pruebaUno from '../assets/pruebaUno.jpg';
 import pruebaDos from '../assets/pruebaDos.png';
 
 function Hero() {
-
   const { idioma } = useLanguage();
   const { saludo, puesto, click } = textos[idioma];
 
-  const [fotoPerfil, setFotoPerfil] = useState(pruebaUno)
-
+  const clickMeRef = useRef(null);
+  const [fotoPerfil, setFotoPerfil] = useState(pruebaUno);
+  
   let cambiarFoto = () => {
     (fotoPerfil == pruebaUno) ? setFotoPerfil(pruebaDos) : setFotoPerfil(pruebaUno);
   };
+
+  useEffect (() => {
+    const animacion = anime({
+      targets: clickMeRef.current,
+      translateX: -15,
+      translateX: 15,
+      direction: 'alternate',
+      loop: true,
+      easing: 'linear',
+      duration: 300
+    });
+  }, []);
+
+  
 
   return (
     <div className='flex justify-center items-center flex-col pt-20 bg-slate-200 text-slate-900 w-auto dark:bg-slate-900 dark:text-slate-200'>
@@ -24,7 +39,7 @@ function Hero() {
       <div className='flex flex-col justify-center items-center px-8 py-10'>
         <img className='rounded-full w-[240px] h-[240px] object-center object-cover'
           src={fotoPerfil} alt='Este soy yo! :D' onClick={() => cambiarFoto()} />
-        <p className='font-mono text-lg'>{click}</p>
+        <p className='font-mono text-lg' ref={clickMeRef}>{click}</p>
       </div>
       {/* Agregar imagen sobre codigo */}
     </div>

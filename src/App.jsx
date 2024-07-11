@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import SomeProjects from "./components/SomeProjects";
 import Projects from './components/Projects';
+import Contacme from "./components/Contacme";
 
 
 function App() {
@@ -17,8 +18,7 @@ function App() {
       <Skills />
       <SomeProjects />
       <Projects />
-      <p className="text-red-500 text-2xl bg-slate-400 rounded-md">Contacme</p>
-      <p className="text-red-500 text-2xl bg-slate-400 rounded-md">Footer</p>
+      <Contacme />
     </LanguageProvider>
   )
 }

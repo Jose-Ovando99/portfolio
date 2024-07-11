@@ -9,12 +9,13 @@ function Projects() {
   const { idioma } = useLanguage();
   const { pagina, codigo, trabajoMorita } = textos[idioma];
 
-  const CONTENEDOR = 'font-nunito text-slate-900 bg-slate-200 flex flex-col md:flex-row px-12 text-center justify-center pb-20';
+  const CONTENEDOR = 'font-nunito text-slate-900 bg-slate-200 flex flex-col md:flex-row px-12 text-center justify-center pb-24';
 
   return (
 
     <div className={`${CONTENEDOR}`}>
-      <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl -mt-40 bg-slate-200 p-8">
+      {/* movi el margin bottom para dar mas espacio en blanco */}
+      <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl -mt-40 bg-slate-200 p-8 mb-10">
         <p className='font-extrabold text-2xl'>Morita Nails Studio</p>
         <img className='w-32 rounded-full m-3' src={moritaCover} />
         <p className='text-justify'>{trabajoMorita}</p>

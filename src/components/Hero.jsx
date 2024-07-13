@@ -11,12 +11,12 @@ function Hero() {
 
   const clickMeRef = useRef(null);
   const [fotoPerfil, setFotoPerfil] = useState(pruebaUno);
-  
+
   let cambiarFoto = () => {
     (fotoPerfil == pruebaUno) ? setFotoPerfil(pruebaDos) : setFotoPerfil(pruebaUno);
   };
 
-  useEffect (() => {
+  useEffect(() => {
     const animacion = anime({
       targets: clickMeRef.current,
       translateX: -15,
@@ -24,17 +24,17 @@ function Hero() {
       direction: 'alternate',
       loop: true,
       easing: 'linear',
-      duration: 300
+      duration: 400
     });
   }, []);
 
-  
+
 
   return (
     <div className='flex justify-center items-center flex-col pt-20 bg-slate-200 text-slate-900 w-auto dark:bg-slate-900 dark:text-slate-200'>
-      <div className='text-center font-nunito text-3xl justify-center items-center'>
+      <div className='text-center font-nunito text-3xl flex flex-col justify-center items-center'>
         <p className='px-8'>{saludo}<span className='font-bold'>Ivan Ovando</span><br /></p>
-        <p className='text-xl px-8 py-4'>{puesto}</p>
+        <p className='text-xl px-8 py-4 my-4 md:w-2/3'>{puesto}</p>
       </div>
       <div className='flex flex-col justify-center items-center px-8 py-10'>
         <img className='rounded-full w-[240px] h-[240px] object-center object-cover'

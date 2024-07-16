@@ -15,9 +15,9 @@ function Projects() {
 
     <div className={`${CONTENEDOR}`}>
       {/* movi el margin bottom para dar mas espacio en blanco */}
-      <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl -mt-40 bg-slate-200 p-8 mb-10">
-        <p className='font-extrabold text-2xl'>Morita Nails Studio</p>
-        <img className='w-32 rounded-full m-3' src={moritaCover} />
+      <div className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl -mt-40 bg-slate-200 py-8 px-16 mb-10 md:max-w-xl">
+        <p className='font-extrabold text-2xl'>Morita Nail Studio</p>
+        <img className='w-36 rounded-full m-3' src={moritaCover} />
         <p className='text-justify'>{trabajoMorita}</p>
         {/* Enlaces */}
         <div className='flex flex-row justify-between items-center mt-4'>

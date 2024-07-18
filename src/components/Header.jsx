@@ -23,7 +23,7 @@ function Header() {
   return (
     <header className="bg-slate-200 dark:bg-slate-900">
       {/* Mobile-first */}
-      <div className="font-mono flex w-auto h-14 justify-between items-center md:h-16">
+      <div className="font-mono flex w-auto h-14 justify-between items-center md:h-16 2xl:mx-24">
         <div className="p-3 text-2xl flex items-center">
           {/* Incluir logo pixel art */}
           <img src={logo} alt="Logo Ovando" className="md:w-2/5 w-2/3 mt-2" />

@@ -9,9 +9,9 @@ function SomeProjects() {
 
 
   return (
-    <div className="font-nunito font-semibold text-center bg-[#0C1A1A] pb-56 w-full">
-      <p className='text-3xl text-[#6ACFC7] font-bold p-9'>{trabajos}</p>
-      <p className='text-slate-100 text-lg px-10'>{trabajosTexto}</p>
+    <div className="bg-sky-900 font-nunito font-semibold text-center pb-56 w-full dark:bg-gray-800">
+      <p className='text-amber-600 text-3xl font-bold p-9'>{trabajos}</p>
+      <p className='text-slate-200 text-lg px-10'>{trabajosTexto}</p>
     </div>
   );
 }

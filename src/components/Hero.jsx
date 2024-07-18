@@ -19,8 +19,7 @@ function Hero() {
   useEffect(() => {
     const animacion = anime({
       targets: clickMeRef.current,
-      translateX: -15,
-      translateX: 15,
+      translateX: [-10, 10],
       direction: 'alternate',
       loop: true,
       easing: 'linear',

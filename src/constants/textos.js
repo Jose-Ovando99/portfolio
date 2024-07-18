@@ -18,12 +18,12 @@ const textos = {
     trabajosTexto: 'Estos son algunos de los trabajos que he realizado tanto de manera freelance como para aprender.',
     pagina: 'Página web',
     codigo: 'Código (GitHub)',
-    trabajoMorita: 'Morita Nail es un salón de uñas especializado que presenta una selección destacada de sus trabajos en su landing page, destacando su arte y profesionalismo en el cuidado de las uñas.',
+    trabajoMorita: 'Morita Nail Studio es un salón de uñas especializado que presenta una selección destacada de sus trabajos en su landing page, destacando su arte y profesionalismo en el cuidado de las uñas.',
     // Seccion trabajos
 
     interes: 'Hablemos',
     interesTexto: 'Estoy comprometido a acompañarte en cada fase del proyecto, desde la fase de diseño inicial hasta la implementación y más.',
-
+    footer: 'Creado por Ivan Ovando ',
   },
   en: {
     saludo: 'Hi, my name is ',
@@ -44,11 +44,12 @@ const textos = {
     trabajosTexto: 'This is some of the work I have done both as a freelancer and to learn.',
     pagina: 'Web page',
     codigo: 'Code (GitHub)',
-    trabajoMorita: 'Morita Nail is a specialized nail salon that showcases a prominent selection of their work on their landing page, highlighting their artistry and professionalism in nail care.',
+    trabajoMorita: 'Morita Nail Studio is a specialized nail salon that showcases a prominent selection of their work on their landing page, highlighting their artistry and professionalism in nail care.',
     // Seccion trabajos
 
     interes: 'Let\'s talk',
     interesTexto: 'I am committed to accompanying you through every phase of the project, from the initial design phase to implementation and beyond.',
+    footer: 'Created by Ivan Ovando ',
   }
 };
 

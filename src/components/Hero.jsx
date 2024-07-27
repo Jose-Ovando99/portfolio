@@ -2,18 +2,19 @@ import { useState, React, useRef, useEffect } from 'react';
 import { useLanguage } from './LanguageContext';
 import textos from '../constants/textos';
 import anime from 'animejs';
-import pruebaUno from '../assets/pruebaUno.jpg';
+import fotoUno from '../assets/retratoPixel.png';
 import pruebaDos from '../assets/pruebaDos.png';
+import imgHero from '../assets/imgHero.png';
 
 function Hero() {
   const { idioma } = useLanguage();
   const { saludo, puesto, click } = textos[idioma];
 
   const clickMeRef = useRef(null);
-  const [fotoPerfil, setFotoPerfil] = useState(pruebaUno);
+  const [fotoPerfil, setFotoPerfil] = useState(fotoUno);
 
   let cambiarFoto = () => {
-    (fotoPerfil == pruebaUno) ? setFotoPerfil(pruebaDos) : setFotoPerfil(pruebaUno);
+    (fotoPerfil == fotoUno) ? setFotoPerfil(pruebaDos) : setFotoPerfil(fotoUno);
   };
 
   useEffect(() => {
@@ -40,7 +41,7 @@ function Hero() {
           src={fotoPerfil} alt='Este soy yo! :D' onClick={() => cambiarFoto()} />
         <p className='font-mono text-lg' ref={clickMeRef}>{click}</p>
       </div>
-      {/* Agregar imagen sobre codigo */}
+      <img src={imgHero} className='w-full max-w-[768px] object-center object-cover pt-10 px-8' />
     </div>
   );
 }

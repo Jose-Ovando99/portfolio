@@ -19,6 +19,7 @@ const textos = {
     pagina: 'Página web',
     codigo: 'Código (GitHub)',
     trabajoMorita: 'Morita Nail Studio es un salón de uñas especializado que presenta una selección destacada de sus trabajos en su landing page, destacando su arte y profesionalismo en el cuidado de las uñas.',
+    trabajoPokedex: 'Pokedex desarrollada con Tailwind CSS, React y Vite, diseñada para explorar el consumo de APIs REST y perfeccionar el diseño con Tailwind CSS.',
     // Seccion trabajos
 
     interes: 'Hablemos',
@@ -45,6 +46,7 @@ const textos = {
     pagina: 'Web page',
     codigo: 'Code (GitHub)',
     trabajoMorita: 'Morita Nail Studio is a specialized nail salon that showcases a prominent selection of their work on their landing page, highlighting their artistry and professionalism in nail care.',
+    trabajoPokedex: 'Pokedex developed with Tailwind CSS, React, and Vite, designed to explore the consumption of REST APIs and refine the design using Tailwind CSS.',
     // Seccion trabajos
 
     interes: 'Let\'s talk',

@@ -22,7 +22,6 @@ function Header() {
 
   return (
     <header className="bg-slate-200 dark:bg-slate-900">
-      {/* Mobile-first */}
       <div className="font-mono flex w-auto h-14 justify-between items-center md:h-16 2xl:mx-24">
         <div className="p-3 text-2xl flex items-center">
           {/* Incluir logo pixel art */}

@@ -3,7 +3,7 @@ import { useLanguage } from './LanguageContext';
 import textos from '../constants/textos';
 import anime from 'animejs';
 import fotoUno from '../assets/retratoPixel.png';
-import pruebaDos from '../assets/pruebaDos.png';
+import fotoDos from '../assets/retratoPixel2.png';
 import imgHero from '../assets/imgHero.png';
 
 function Hero() {
@@ -14,7 +14,7 @@ function Hero() {
   const [fotoPerfil, setFotoPerfil] = useState(fotoUno);
 
   let cambiarFoto = () => {
-    (fotoPerfil == fotoUno) ? setFotoPerfil(pruebaDos) : setFotoPerfil(fotoUno);
+    (fotoPerfil == fotoUno) ? setFotoPerfil(fotoDos) : setFotoPerfil(fotoUno);
   };
 
   useEffect(() => {

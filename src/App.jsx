@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import SomeProjects from "./components/SomeProjects";
 import Projects from './components/Projects';
 import Contacme from "./components/Contacme";
+import ContactForm from "./components/ContacForm";
 
 
 function App() {

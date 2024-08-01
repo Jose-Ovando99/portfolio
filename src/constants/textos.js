@@ -24,6 +24,15 @@ const textos = {
 
     interes: 'Hablemos',
     interesTexto: 'Estoy comprometido a acompañarte en cada fase del proyecto, desde la fase de diseño inicial hasta la implementación y más.',
+    contactHeader: 'Contáctame',
+    contactName: 'Nombre',
+    contactEmail: 'Correo de contacto',
+    contactTitle: 'Asunto',
+    contactBody: 'Mensaje',
+    mesStatus1: 'Enviando...',
+    mesStatus2: 'Mensaje enviado con éxito.',
+    mesStatus3: 'Error al enviar el mensaje.',
+    send: 'Enviar',
     footer: 'Creado por Ivan Ovando ',
   },
   en: {
@@ -51,6 +60,15 @@ const textos = {
 
     interes: 'Let\'s talk',
     interesTexto: 'I am committed to accompanying you through every phase of the project, from the initial design phase to implementation and beyond.',
+    contactHeader: 'Contact Me',
+    contactName: 'Name',
+    contactEmail: 'Contact Email',
+    contactTitle: 'Subject',
+    contactBody: 'Message',
+    mesStatus1: 'Sending...',
+    mesStatus2: 'Message sent successfully.',
+    mesStatus3: 'Error sending the message.',
+    send: 'Send',
     footer: 'Created by Ivan Ovando ',
   }
 };

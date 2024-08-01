@@ -17,7 +17,7 @@ function Contacme() {
           <p className='font-extrabold text-2xl text-slate-200'>{interes}</p>
         </div>
       <ContactForm />
-        <p className='text-slate-200 text-center my-1 font-semibold md:w-1/3'>{interesTexto}</p>
+        <p className='text-slate-200 text-center my-1 font-semibold md:w-2/3'>{interesTexto}</p>
       </div>
 
       {/* Footer */}

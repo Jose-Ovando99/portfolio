@@ -9,7 +9,7 @@ import pokedexCover from '../assets/pokedexAPICover.png';
 function Projects() {
 
   return (
-    <div className='font-nunito text-slate-900 bg-slate-200 flex flex-col md:flex-row px-12 text-center justify-center pb-24 dark:bg-slate-900'>
+    <div className='font-nunito text-slate-900 bg-slate-200 flex flex-col md:flex-row px-12 text-center justify-center pb-24 dark:bg-slate-900 flex-wrap'>
       <CardProject 
       title='Pokedex + pokeAPI'
       imageURL={pokedexCover}
@@ -19,7 +19,6 @@ function Projects() {
       classAdd='-mt-40'
       />
       
-
       <CardProject 
       title='Morita Nail Studio'
       imageURL={moritaCover}

@@ -2,8 +2,8 @@ import React from 'react';
 import textos from '../constants/textos';
 import { useLanguage } from './LanguageContext';
 import { IconBrandFigma, IconBrandSketch, IconFilePencil, IconBrandHtml5, IconBrandCss3, IconBrandJavascript, IconBrandPython, IconBrandGit, IconBrandNodejs, IconBrandReact, IconBrandTailwind, IconBrandBootstrap, IconBrandGithub, IconBrandVscode } from '@tabler/icons-react';
-import diseniadorimg from '../assets/personajeFigma.gif';
-import frontimg from '../assets/personajeJS.gif';
+import diseniadorimg from '../assets/PersonajeFigma.gif';
+import frontimg from '../assets/PersonajeJS.gif';
 
 function Skills() {
   const { idioma } = useLanguage();

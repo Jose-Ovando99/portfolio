@@ -23,6 +23,8 @@ const textos = {
     // Seccion trabajos(final)
     
     // Seccion proyectos
+    dificultad: 'Si el código fuera un personaje, ¡definitivamente sería este!',
+    tecnologias: 'Tecnologías utilizadas',
     masProyectos: 'Proyetos realizados con la finalidad de aprender',
     proCro: 'Cronómetro',
     proCroDes: 'Cronómetro creado con el propósito de aprender sobre el manejo del DOM en JavaScript.',
@@ -34,7 +36,7 @@ const textos = {
     proCitTec: 'HTML, CSS & JavaScript',
     proTai: 'Blog con Tailwind',
     proTaiDes: 'Blog creado con Tailwind para aprender sobre el framework.',
-    proTaiDemo: 'https://google.com',
+    proTaiDemo: 'https://jose-ovando99.github.io/learn-tailwind/',
     proTaiTec: 'HTML, CSS, JavaScript, React, Vite & Tailwind',
     proBoo: 'Portfolio con Bootstrap',
     proBooDes: 'Portfolio creado con Bootstrap para aprender sobre el framework.',
@@ -44,12 +46,12 @@ const textos = {
     proTdjDes: 'Lista de tareas hecha con JavaScrip para aprender sobre manejo del DOM.',
     proTdjDemo: 'https://jose-ovando99.github.io/lista-de-tareas/',
     proTdjTec: 'HTML, CSS & JavaScript',
-    proTdr: 'LIsta de tareas React',
+    proTdr: 'Lista de tareas React',
     proTdrDes: 'Lista de tareas desarrollada con React para aprender sobre esta librería.',
     proTdrDemo: 'https://jose-ovando99.github.io/toDoList-react/',
     proTdrTec: 'HTML, CSS, UUID, JavaScript, Vite & React',
     proCal: 'CalculadoReact',
-    proCalDes: 'Calculadora hecha con React.',
+    proCalDes: 'Calculadora hecha con React que solo realiza funciones básicas.',
     proCalDemo: 'https://jose-ovando99.github.io/calculadora-react/',
     proCalTec: 'HTML, CSS, MathJS, JavaScript & React',
     // Seccion proyectos(final)
@@ -91,6 +93,8 @@ const textos = {
     // Seccion trabajos(final)
     
     // Seccion proyectos
+    dificultad: 'If the code were a character, it would definitely be this one!',
+    tecnologias: 'Technologies used',
     masProyectos: 'Projects created to learn',
     proCro: 'Chronometer',
     proCroDes: 'Chronometer created to learn about DOM manipulation in JavaScript.',
@@ -102,7 +106,7 @@ const textos = {
     proCitTec: 'HTML, CSS & JavaScript',
     proTai: 'Blog with Tailwind',
     proTaiDes: 'Blog created with Tailwind to learn about the framework.',
-    proTaiDemo: 'https://google.com',
+    proTaiDemo: 'https://jose-ovando99.github.io/learn-tailwind/',
     proTaiTec: 'HTML, CSS, JavaScript, React, Vite & Tailwind',
     proBoo: 'Portfolio with Bootstrap',
     proBooDes: 'Portfolio created with Bootstrap to learn about the framework.',
@@ -117,7 +121,7 @@ const textos = {
     proTdrDemo: 'https://jose-ovando99.github.io/toDoList-react/',
     proTdrTec: 'HTML, CSS, UUID, JavaScript, Vite & React',
     proCal: 'React Calculator',
-    proCalDes: 'Calculator made with React.',
+    proCalDes: 'Calculator made with React that only performs basic functions.',
     proCalDemo: 'https://jose-ovando99.github.io/calculadora-react/',
     proCalTec: 'HTML, CSS, MathJS, JavaScript & React',
     // Seccion proyectos(final)

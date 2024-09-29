@@ -23,7 +23,7 @@ const textos = {
     // Seccion trabajos(final)
     
     // Seccion proyectos
-    dificultad: 'Si el código fuera un personaje, ¡definitivamente sería este!',
+    dificultad: 'Si el código fuera un personaje, sin duda sería este!',
     tecnologias: 'Tecnologías utilizadas',
     masProyectos: 'Proyetos realizados con la finalidad de aprender',
     proCro: 'Cronómetro',

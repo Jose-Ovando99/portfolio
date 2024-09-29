@@ -5,8 +5,8 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import SomeProjects from "./components/SomeProjects";
 import Projects from './components/Projects';
+import MoreProjects from './components/MoreProjects';
 import Contacme from "./components/Contacme";
-
 
 function App() {
 
@@ -18,6 +18,7 @@ function App() {
       <Skills />
       <SomeProjects />
       <Projects />
+      <MoreProjects />
       <Contacme />
     </LanguageProvider>
   )

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import BotonIdioma from './BotonIdioma';
 import { IconMoonStars } from "@tabler/icons-react";
-import logo from '../assets/LogoOvando.png';
+import logo from '../assets/logoOvando.png';
 
 
 function Header() {

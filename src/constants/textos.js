@@ -50,7 +50,7 @@ const textos = {
     proTdrDes: 'Lista de tareas desarrollada con React para aprender sobre esta librería.',
     proTdrDemo: 'https://jose-ovando99.github.io/toDoList-react/',
     proTdrTec: 'HTML, CSS, UUID, JavaScript, Vite & React',
-    proCal: 'CalculadoReact',
+    proCal: 'CalcuReact',
     proCalDes: 'Calculadora hecha con React que solo realiza funciones básicas.',
     proCalDemo: 'https://jose-ovando99.github.io/calculadora-react/',
     proCalTec: 'HTML, CSS, MathJS, JavaScript & React',

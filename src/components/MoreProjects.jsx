@@ -46,7 +46,7 @@ function MoreProjects() {
   return (
 
     <section className="pb-40 -mt-20 font-nunito text-slate-900 bg-slate-200 dark:bg-slate-900 dark:text-slate-200 px-12 flex flex-col">
-      <p className="text-center font-extrabold text-2xl mx-8">{masProyectos}</p>
+      <p className="text-center font-extrabold text-2xl">{masProyectos}</p>
       <div className="flex flex-row flex-wrap justify-center items-center gap-2 font-bold my-4">
         {/* botones */}
         <BotonProyecto handleCLick={mostrarProyecto} proyectoInfo="Cro" proyectoTitulo={proCro} handleDif={mostrarDificultad} proyectoDif={normal} handleImg={mostrarImgProyecto} imgPro={cro} />

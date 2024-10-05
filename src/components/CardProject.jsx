@@ -10,7 +10,7 @@ function CardProject({ title, imageURL, textAbout, page, code, classAdd }) {
   const textoSobre = textos[idioma][textAbout];
 
   return (
-    <article className={`flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl bg-slate-200 px-16 py-8 mb-10 md:w-2/5 dark:bg-slate-900 dark:border-slate-200 ${classAdd}`}>
+    <article className={`flex flex-col items-center justify-center border-2 border-gray-500 rounded-xl bg-slate-200 px-16 py-8 mb-10 w-full md:w-2/5 dark:bg-slate-900 dark:border-slate-200 ${classAdd}`}>
       <p className='font-extrabold text-2xl dark:text-slate-200'>
         {title}
       </p>

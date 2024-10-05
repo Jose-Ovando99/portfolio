@@ -9,7 +9,7 @@ import pokedexCover from '../assets/pokedexAPICover.png';
 function Projects() {
 
   return (
-    <div className='font-nunito text-slate-900 bg-slate-200 flex flex-col md:flex-row px-12 text-center justify-center pb-24 dark:bg-slate-900 flex-wrap'>
+    <div className='font-nunito text-slate-900 bg-slate-200 flex flex-col md:flex-row px-12 text-center justify-center items-center pb-24 dark:bg-slate-900 flex-wrap'>
       <CardProject 
       title='Pokedex + pokeAPI'
       imageURL={pokedexCover}
@@ -25,7 +25,7 @@ function Projects() {
       textAbout='trabajoMorita'
       page='https://google.com'
       code='https://github.com'
-      classAdd='-mt-4  md:-mt-40'
+      classAdd='-mt-4 md:-mt-40'
       />
     </div>
   );
